@@ -7,3 +7,5 @@ Freq Range - Min Freq + Freq Range equals the maximum frequency possible
 Beat - the interval in 1/n of a bar. 1 is a full bar. 2 is half a bar, 16 is a 16th note, etc.
 
 The filter is customizable for both channels. Filter Type, Gain , and Q value is selected by the user for L and R audio channels
+
+Thanks to Jason Allen for his MaxForLive course on Udemy. This patch is based on his Beats Based EQ patch that is the final project for the course.
