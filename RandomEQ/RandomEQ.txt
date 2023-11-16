@@ -1,0 +1,9 @@
+How to use:
+
+This patch applies a random filter to the L and R audio channels at a set interval. The filter type is set by the user and then each interval a random frequency is chosen.
+
+Min Freq - The random frequency won't be less than this value
+Freq Range - Min Freq + Freq Range equals the maximum frequency possible
+Beat - the interval in 1/n of a bar. 1 is a full bar. 2 is half a bar, 16 is a 16th note, etc.
+
+The filter is customizable for both channels. Filter Type, Gain , and Q value is selected by the user for L and R audio channels
